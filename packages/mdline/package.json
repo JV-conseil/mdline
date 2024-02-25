@@ -23,9 +23,7 @@
   ],
   "main": "lib/mdline.js",
   "types": "lib/mdline.d.ts",
-  "bin": {
-    "mdline": "bin/cmd.js"
-  },
+  "bin": "bin/cmd.js",
   "directories": {
     "lib": "lib",
     "test": "test"
