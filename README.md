@@ -6,13 +6,12 @@ For example, mdline convert [a markdown file](packages/mdline-parser/test/snapsh
 
 [![ecmascript-timeline.png](./docs/resources/ecmascript-timeline.png)](https://mdline.netlify.com/)
 
-> mdline timeline: <https://mdline.netlify.com/>  
+> mdline timeline: <https://mdline.netlify.com/>
 > [ECMAScript - Wikipedia](https://en.wikipedia.org/wiki/ECMAScript)
-
 
 ## Mdline Format
 
-```
+```bash
 ## {{Date}}: TITLE
 
 MARKDOWN BODY
@@ -24,7 +23,7 @@ MARKDOWN BODY
 
 **Example:**
 
-```
+```bash
 ## 1997-06: ECMAScript 1
 
 First edition.
@@ -50,13 +49,15 @@ You can also live demo on <https://mdline.netlify.com/>.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install --global mdline
+`npm install --global mdline`
 
 Convert mdline format text to html.
 
-    mdline ./timeline.md -o timeline.html
-    # or
-    npx mdline ./timeline.md -o timeline.html
+```bash
+mdline ./timeline.md -o timeline.html
+# or
+npx mdline ./timeline.md -o timeline.html
+```
 
 For more details, see [mdline package](./packages/mdline).
 
@@ -75,16 +76,20 @@ See [Releases page](https://github.com/azu/mdline/releases).
 
 ## Running tests
 
-    yarn install
-    yarn bootrap
-    yarn test
+```bash
+yarn install
+# yarn bootrap
+yarn test
+```
 
 ## Release workflow
 
-    # = npm version
-    yarn run versionup
-    # = npm publish
-    yarn run release
+```bash
+# = npm version
+yarn run versionup
+# = npm publish
+yarn run release
+```
 
 ## Docker
 
