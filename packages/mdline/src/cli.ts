@@ -9,10 +9,10 @@ export async function run(argv: string[]) {
     const cli = meow(`
     Usage
       $ mdline <input> [Options]
- 
+
     Options
       --output, -o  Output path
- 
+
     Examples
       $ mdline ./timeline.md -o timeline.html
 `, {

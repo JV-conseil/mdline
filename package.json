@@ -1,72 +1,72 @@
 {
-  "private": true,
-  "name": "root",
-  "version": "1.0.0",
-  "description": "Markdown timeline format and toolkit.",
-  "keywords": [
-    "format",
-    "html",
-    "markdown",
-    "timeline"
-  ],
-  "workspaces": [
-    "packages/*"
-  ],
-  "homepage": "https://github.com/azu/mdline",
+  "author": "azu",
   "bugs": {
     "url": "https://github.com/azu/mdline/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/azu/mdline.git"
-  },
-  "license": "MIT",
-  "author": "azu",
-  "files": [
-    "bin/",
-    "lib/",
-    "src/"
-  ],
-  "main": "lib/mdline.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
-    "test": "lerna run test",
-    "updateSnapshot": "lerna run updateSnapshot",
-    "versionup": "lerna version --conventional-commits",
-    "versionup:patch": "lerna version patch --conventional-commits",
-    "versionup:minor": "lerna version minor --conventional-commits",
-    "versionup:major": "lerna version minor --conventional-commits",
-    "release": "lerna publish from-package",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "netlify": "node public/update-index.js",
-    "yarn-update": "yarn set version stable && yarn install && yarn up && yarn npm audit && npx depcheck --detailed && yarn upgrade-interactive"
-  },
+  "description": "Markdown timeline format and toolkit.",
   "devDependencies": {
     "husky": "^9.0.11",
     "lerna": "^8.1.2",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
   },
-  "prettier": {
-    "singleQuote": false,
-    "printWidth": 120,
-    "tabWidth": 4
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "homepage": "https://github.com/azu/mdline",
   "husky": {
     "hooks": {
       "precommit": "lint-staged"
     }
   },
+  "keywords": [
+    "format",
+    "html",
+    "markdown",
+    "timeline"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css}": [
       "prettier --write",
       "git add"
     ]
   },
-  "packageManager": "yarn@4.1.0"
+  "main": "lib/mdline.js",
+  "name": "root",
+  "packageManager": "yarn@4.1.0",
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/mdline.git"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "netlify": "node public/update-index.js",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "release": "lerna publish from-package",
+    "test": "lerna run test",
+    "updateSnapshot": "lerna run updateSnapshot",
+    "versionup": "lerna version --conventional-commits",
+    "versionup:major": "lerna version minor --conventional-commits",
+    "versionup:minor": "lerna version minor --conventional-commits",
+    "versionup:patch": "lerna version patch --conventional-commits",
+    "yarn-update": "yarn set version stable && yarn install && yarn up && yarn npm audit && npx depcheck --detailed && yarn upgrade-interactive"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
 }
