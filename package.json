@@ -44,7 +44,7 @@
     "release": "lerna publish from-package",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "netlify": "node public/update-index.js",
-    "yarn-update": "yarn set version stable && yarn install && yarn up && yarn npm audit && npx depcheck --detailed"
+    "yarn-update": "yarn set version stable && yarn install && yarn up && yarn npm audit && npx depcheck --detailed && yarn upgrade-interactive"
   },
   "devDependencies": {
     "husky": "^9.0.11",

@@ -49,13 +49,15 @@ You can also live demo on <https://mdline.netlify.com/>.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install --global mdline
+`npm install --global mdline`
 
 Convert mdline format text to html.
 
-    mdline ./timeline.md -o timeline.html
-    # or
-    npx mdline ./timeline.md -o timeline.html
+```bash
+mdline ./timeline.md -o timeline.html
+# or
+npx mdline ./timeline.md -o timeline.html
+```
 
 For more details, see [mdline package](./packages/mdline).
 

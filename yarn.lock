@@ -928,12 +928,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/meow@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@types/meow@npm:5.0.0"
+"@types/meow@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@types/meow@npm:6.0.0"
   dependencies:
-    "@types/minimist-options": "npm:*"
-  checksum: 10c0/539acc35628c6e78dc99ced345c876d198b808713390aaec59c681d45f91de4a4af524d704b21ca693ee96dc90ee3300d1bc8fe39510b2a2e0a419029f1d1cd2
+    meow: "npm:*"
+  checksum: 10c0/ca305535b86af6b52cb88782de78034a7b2afe347cf616c851d89e7f277d49c135e17877570efa5eabff7465af53842b5a9f99d10b231391250d35fb5fd5ec01
   languageName: node
   linkType: hard
 
@@ -941,22 +941,6 @@ __metadata:
   version: 3.0.5
   resolution: "@types/minimatch@npm:3.0.5"
   checksum: 10c0/a1a19ba342d6f39b569510f621ae4bbe972dc9378d15e9a5e47904c440ee60744f5b09225bc73be1c6490e3a9c938eee69eb53debf55ce1f15761201aa965f97
-  languageName: node
-  linkType: hard
-
-"@types/minimist-options@npm:*":
-  version: 3.0.0
-  resolution: "@types/minimist-options@npm:3.0.0"
-  dependencies:
-    "@types/minimist": "npm:*"
-  checksum: 10c0/b1d470f77f20d92cd9006fc55bb23bafc512c39f3f700f8894a4f9e6a1c88f5cb84167069df9494502020a01d4f35d3d7e3cab2cccdab79c97be062f0d439805
-  languageName: node
-  linkType: hard
-
-"@types/minimist@npm:*":
-  version: 1.2.0
-  resolution: "@types/minimist@npm:1.2.0"
-  checksum: 10c0/9fbf8a738d70c32bd0fccdb879dd9910a40d097681a4322fe614355746106a139ff406b939d86624421e3488437c51c564ee44ba975800267f8d921f1c8c3da2
   languageName: node
   linkType: hard
 
@@ -4249,7 +4233,7 @@ __metadata:
     "@mdline/mdline-formatter-html": "npm:^1.0.2"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
-    "@types/meow": "npm:^5.0.0"
+    "@types/meow": "npm:^6.0.0"
     "@types/mocha": "npm:^10.0.6"
     "@types/node": "npm:^20.11.20"
     cross-env: "npm:^7.0.3"
@@ -4272,7 +4256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"meow@npm:^13.2.0":
+"meow@npm:*, meow@npm:^13.2.0":
   version: 13.2.0
   resolution: "meow@npm:13.2.0"
   checksum: 10c0/d5b339ae314715bcd0b619dd2f8a266891928e21526b4800d49b4fba1cc3fff7e2c1ff5edd3344149fac841bc2306157f858e8c4d5eaee4d52ce52ad925664ce
