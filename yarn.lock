@@ -928,15 +928,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/meow@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@types/meow@npm:6.0.0"
-  dependencies:
-    meow: "npm:*"
-  checksum: 10c0/ca305535b86af6b52cb88782de78034a7b2afe347cf616c851d89e7f277d49c135e17877570efa5eabff7465af53842b5a9f99d10b231391250d35fb5fd5ec01
-  languageName: node
-  linkType: hard
-
 "@types/minimatch@npm:^3.0.3":
   version: 3.0.5
   resolution: "@types/minimatch@npm:3.0.5"
@@ -4212,7 +4203,6 @@ __metadata:
     "@mdline/mdline-formatter-html": "npm:^1.0.2"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
-    "@types/meow": "npm:^6.0.0"
     "@types/mocha": "npm:^10.0.6"
     "@types/node": "npm:^20.11.20"
     cross-env: "npm:^7.0.3"
@@ -4235,7 +4225,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"meow@npm:*, meow@npm:^13.2.0":
+"meow@npm:^13.2.0":
   version: 13.2.0
   resolution: "meow@npm:13.2.0"
   checksum: 10c0/d5b339ae314715bcd0b619dd2f8a266891928e21526b4800d49b4fba1cc3fff7e2c1ff5edd3344149fac841bc2306157f858e8c4d5eaee4d52ce52ad925664ce

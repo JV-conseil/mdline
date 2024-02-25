@@ -78,7 +78,8 @@ See [Releases page](https://github.com/azu/mdline/releases).
 
 ```bash
 yarn install
-# yarn bootrap
+# yarn bootstrap
+yarn run lerna repair
 yarn test
 ```
 
