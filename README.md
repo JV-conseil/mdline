@@ -11,7 +11,7 @@ For example, mdline convert [a markdown file](packages/mdline-parser/test/snapsh
 
 ## Mdline Format
 
-```
+```bash
 ## {{Date}}: TITLE
 
 MARKDOWN BODY
@@ -23,7 +23,7 @@ MARKDOWN BODY
 
 **Example:**
 
-```
+```bash
 ## 1997-06: ECMAScript 1
 
 First edition.
@@ -74,16 +74,20 @@ See [Releases page](https://github.com/azu/mdline/releases).
 
 ## Running tests
 
-    yarn install
-    yarn bootrap
-    yarn test
+```bash
+yarn install
+# yarn bootrap
+yarn test
+```
 
 ## Release workflow
 
-    # = npm version
-    yarn run versionup
-    # = npm publish
-    yarn run release
+```bash
+# = npm version
+yarn run versionup
+# = npm publish
+yarn run release
+```
 
 ## Docker
 
