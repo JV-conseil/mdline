@@ -41,18 +41,18 @@
   },
   "dependencies": {
     "@mdline/types": "^1.0.2",
-    "svelte": "^2.16.0"
+    "svelte": "^4.2.12"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.18",
-    "cross-env": "^5.2.0",
-    "mocha": "^5.2.0",
-    "prettier": "^1.15.3",
-    "rimraf": "^2.6.3",
-    "ts-node": "^7.0.1",
-    "ts-node-test-register": "^4.0.0",
-    "typescript": "^3.2.2"
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.26",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "ts-node-test-register": "^10.0.0",
+    "typescript": "^5.4.2"
   },
   "publishConfig": {
     "access": "public"

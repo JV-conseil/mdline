@@ -43,24 +43,24 @@
     "tabWidth": 4
   },
   "dependencies": {
-    "@babel/generator": "^7.2.2",
-    "@babel/parser": "^7.2.3",
+    "@babel/generator": "^7.23.6",
+    "@babel/parser": "^7.24.0",
     "@mdline/mdline-formatter-html": "^1.0.2",
     "@mdline/mdline-parser": "^1.0.2",
-    "meow": "^5.0.0"
+    "meow": "^13.2.0"
   },
   "devDependencies": {
-    "@types/babel__generator": "^7.0.1",
-    "@types/meow": "^5.0.0",
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.18",
-    "cross-env": "^5.2.0",
-    "mocha": "^5.2.0",
-    "prettier": "^1.15.3",
-    "rimraf": "^2.6.3",
-    "ts-node": "^7.0.1",
-    "ts-node-test-register": "^4.0.0",
-    "typescript": "^3.2.2"
+    "@types/babel__generator": "^7.6.8",
+    "@types/meow": "^6.0.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.26",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "ts-node-test-register": "^10.0.0",
+    "typescript": "^5.4.2"
   },
   "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36"
 }

@@ -44,24 +44,24 @@
   },
   "dependencies": {
     "@mdline/types": "^1.0.2",
-    "mdast-util-to-string": "^1.0.5",
-    "remark-html": "^9.0.0",
-    "remark-parse": "^6.0.3",
-    "remark-stringify": "^6.0.4",
+    "mdast-util-to-string": "^4.0.0",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
     "select-section": "^0.4.6",
-    "unified": "^7.1.0",
-    "unist-util-select": "^1.0.0"
+    "unified": "^11.0.4",
+    "unist-util-select": "^5.1.0"
   },
   "devDependencies": {
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.18",
-    "cross-env": "^5.2.0",
-    "mocha": "^5.2.0",
-    "prettier": "^1.15.3",
-    "rimraf": "^2.6.3",
-    "ts-node": "^7.0.1",
-    "ts-node-test-register": "^4.0.0",
-    "typescript": "^3.2.2"
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.26",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "ts-node-test-register": "^10.0.0",
+    "typescript": "^5.4.2"
   },
   "publishConfig": {
     "access": "public"
