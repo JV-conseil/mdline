@@ -55,9 +55,16 @@ You can also live demo on <https://mdline.netlify.com/>.
 
 ## Usage
 
-Install with [npm](https://www.npmjs.com/):
+Install with [yarn](https://yarnpkg.com):
+
+<!--
+Install with [npm](https://www.npmjs.com/):~~
 
 `npm install --global mdline`
+
+-->
+
+`yarn add -D mdline@https://github.com/JV-conseil/mdline.git`
 
 Convert mdline format text to html.
 

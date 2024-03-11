@@ -41,7 +41,7 @@
     "markdown",
     "mdline"
   ],
-  "license": "MIT",
+  "license": "EUPL-1.2",
   "main": "lib/mdline-parser.js",
   "name": "@mdline/mdline-parser",
   "prettier": {
@@ -67,5 +67,5 @@
   },
   "type": "module",
   "types": "lib/mdline-parser.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

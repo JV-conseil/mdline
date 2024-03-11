@@ -31,7 +31,7 @@
     "markdown",
     "timeline"
   ],
-  "license": "MIT",
+  "license": "EUPL-1.2",
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css}": [
       "prettier --write",

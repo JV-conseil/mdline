@@ -34,7 +34,7 @@
   "keywords": [
     "mdline"
   ],
-  "license": "MIT",
+  "license": "EUPL-1.2",
   "main": "lib/mdline-formatter-html.js",
   "name": "@mdline/mdline-formatter-html",
   "prettier": {
@@ -57,5 +57,5 @@
     "watch": "tsc -p . --watch"
   },
   "types": "lib/mdline-formatter-html.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

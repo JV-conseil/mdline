@@ -39,7 +39,7 @@
     "cli",
     "mdline"
   ],
-  "license": "MIT",
+  "license": "EUPL-1.2",
   "main": "lib/mdline.js",
   "name": "mdline",
   "prettier": {
@@ -62,5 +62,5 @@
   },
   "type": "module",
   "types": "lib/mdline.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
