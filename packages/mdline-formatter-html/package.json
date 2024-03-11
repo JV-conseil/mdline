@@ -1,6 +1,6 @@
 {
   "name": "@mdline/mdline-formatter-html",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTML formatter for mdline",
   "keywords": [
     "mdline"
@@ -31,7 +31,7 @@
     "build": "cross-env NODE_ENV=production tsc -p .",
     "clean": "rimraf lib/",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "prepublish": "npm run --if-present build",
+    "prepublish": "yarn run --if-present build",
     "watch": "tsc -p . --watch"
   },
   "prettier": {
@@ -40,7 +40,7 @@
     "tabWidth": 4
   },
   "dependencies": {
-    "@mdline/types": "^1.0.2",
+    "@mdline/types": "@mdline/types@JV-conseil/mdline#workspace=@mdline/types",
     "svelte": "^4.2.12"
   },
   "devDependencies": {

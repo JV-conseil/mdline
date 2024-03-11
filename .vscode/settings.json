@@ -24,15 +24,6 @@
     "**/templates/*.html": "django-html",
     "*.html": "html"
   },
-  "files.exclude": {
-    "**/*.pyc": {
-      "when": "$(basename).py"
-    },
-    "**/__pycache__": true,
-    "**/lib": true,
-    "**/node_modules/**": true,
-    "cache/**/joblib": true
-  },
   "html.format.indentHandlebars": true,
   "html.format.indentInnerHtml": true,
   "html.format.templating": true,

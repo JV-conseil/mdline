@@ -1,3 +1,4 @@
+// @ts-ignore
 import meow from "meow";
 import * as fs from "fs";
 import * as path from "path";
@@ -10,10 +11,10 @@ export async function run(argv: string[]) {
         `
     Usage
       $ mdline <input> [Options]
- 
+
     Options
       --output, -o  Output path
- 
+
     Examples
       $ mdline ./timeline.md -o timeline.html
 `,

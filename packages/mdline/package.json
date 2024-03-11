@@ -1,54 +1,17 @@
 {
-  "name": "mdline",
-  "version": "1.0.2",
-  "description": "markdown to timeline tool.",
-  "keywords": [
-    "cli",
-    "mdline"
-  ],
-  "homepage": "https://github.com/azu/mdline/tree/master/packages/mdline/",
+  "author": "azu",
+  "bin": "bin/cmd.js",
   "bugs": {
     "url": "https://github.com/azu/mdline/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/azu/mdline.git"
-  },
-  "license": "MIT",
-  "author": "azu",
-  "files": [
-    "bin/",
-    "lib/",
-    "src/"
-  ],
-  "main": "lib/mdline.js",
-  "types": "lib/mdline.d.ts",
-  "bin": "bin/cmd.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "build": "cross-env NODE_ENV=production tsc -p .",
-    "clean": "rimraf lib/",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "prepublish": "npm run --if-present build",
-    "test": "mocha \"test/**/*.ts\"",
-    "updateSnapshot": "cross-env UPDATE_SNAPSHOT=1 npm test",
-    "watch": "tsc -p . --watch"
-  },
-  "prettier": {
-    "printWidth": 120,
-    "singleQuote": false,
-    "tabWidth": 4
   },
   "dependencies": {
     "@babel/generator": "^7.23.6",
     "@babel/parser": "^7.24.0",
-    "@mdline/mdline-formatter-html": "^1.0.2",
-    "@mdline/mdline-parser": "^1.0.2",
+    "@mdline/mdline-formatter-html": "@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html",
+    "@mdline/mdline-parser": "@mdline/mdline-parser@JV-conseil/mdline#workspace=@mdline/mdline-parser",
     "meow": "^13.2.0"
   },
+  "description": "markdown to timeline tool.",
   "devDependencies": {
     "@types/babel__generator": "^7.6.8",
     "@types/meow": "^6.0.0",
@@ -62,5 +25,42 @@
     "ts-node-test-register": "^10.0.0",
     "typescript": "^5.4.2"
   },
-  "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36"
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36",
+  "homepage": "https://github.com/azu/mdline/tree/master/packages/mdline/",
+  "keywords": [
+    "cli",
+    "mdline"
+  ],
+  "license": "MIT",
+  "main": "lib/mdline.js",
+  "name": "mdline",
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/mdline.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "clean": "rimraf lib/",
+    "prepublish": "yarn run --if-present build",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "test": "mocha \"test/**/*.ts\"",
+    "updateSnapshot": "cross-env UPDATE_SNAPSHOT=1 npm test",
+    "watch": "tsc -p . --watch"
+  },
+  "types": "lib/mdline.d.ts",
+  "version": "1.0.3"
 }
