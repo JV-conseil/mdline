@@ -1,0 +1,70 @@
+{
+  "author": "azu",
+  "bugs": {
+    "url": "https://github.com/azu/mdline/issues"
+  },
+  "dependencies": {
+    "@mdline/types": "@mdline/types@JV-conseil/mdline#workspace=@mdline/types",
+    "mdast-util-to-string": "^4.0.0",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "select-section": "^0.4.6",
+    "unified": "^11.0.4",
+    "unist-util-select": "^5.1.0"
+  },
+  "description": "A parser for mdline.",
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.26",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.3.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "ts-node-test-register": "^10.0.0",
+    "typescript": "^5.4.2"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36",
+  "homepage": "https://github.com/azu/mdline/tree/master/packages/mdline-parser/",
+  "keywords": [
+    "ast",
+    "markdown",
+    "mdline"
+  ],
+  "license": "MIT",
+  "main": "lib/mdline-parser.js",
+  "name": "@mdline/mdline-parser",
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/mdline.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "clean": "rimraf lib/",
+    "prepublish": "yarn run --if-present build",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "test": "mocha \"test/**/*.ts\"",
+    "updateSnapshot": "cross-env UPDATE_SNAPSHOT=1 npm test",
+    "watch": "tsc -p . --watch"
+  },
+  "types": "lib/mdline-parser.d.ts",
+  "version": "1.0.3"
+}
