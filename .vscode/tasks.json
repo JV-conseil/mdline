@@ -1,0 +1,32 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "type": "shell",
+  "presentation": {
+    "panel": "new",
+    "focus": true,
+    "revealProblems": "onProblem",
+  },
+  "problemMatcher": [],
+  "tasks": [
+    {
+      "label": "build",
+      "command": "yarn run build",
+      "detail": "build",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+    },
+    {
+      "label": "test",
+      "command": "yarn run test",
+      "detail": "test"
+    },
+    {
+      "label": "yarn",
+      "command": "npm run yarn-update",
+      "detail": "Upgrade dependencies"
+    }
+  ]
+}

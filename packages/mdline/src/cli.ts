@@ -6,7 +6,8 @@ import * as parser from "@mdline/mdline-parser";
 import * as formatter from "@mdline/mdline-formatter-html";
 
 export async function run(argv: string[]) {
-    const cli = meow(`
+    const cli = meow(
+        `
     Usage
       $ mdline <input> [Options]
  
@@ -15,17 +16,19 @@ export async function run(argv: string[]) {
  
     Examples
       $ mdline ./timeline.md -o timeline.html
-`, {
-        flags: {
-            output: {
-                type: "string",
-                alias: "o"
-            }
-        },
-        argv,
-        autoHelp: true,
-        autoVersion: true
-    });
+`,
+        {
+            flags: {
+                output: {
+                    type: "string",
+                    alias: "o"
+                }
+            },
+            argv,
+            autoHelp: true,
+            autoVersion: true
+        }
+    );
     const inputFilePath = cli.input[0];
     if (!inputFilePath) {
         cli.showHelp();
