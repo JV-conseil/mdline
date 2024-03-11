@@ -65,7 +65,7 @@
     "versionup:patch": "lerna version patch --conventional-commits",
     "yarn-update": "yarn set version stable && yarn install && yarn up && yarn npm audit && npx depcheck --detailed && yarn upgrade-interactive"
   },
-  "version": "1.0.0",
+  "version": "1.0.3",
   "workspaces": [
     "packages/*"
   ]

@@ -1,6 +1,5 @@
 # mdline
 
-[![Build Status](https://travis-ci.org/JV-conseil/mdline.svg?branch=master)](https://travis-ci.org/JV-conseil/mdline)
 [![License EUPL 1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](LICENSE)
 [![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil "Become a sponsor to JV-conseil")
 [![Follow JV conseil on StackOverflow](https://img.shields.io/stackexchange/stackoverflow/r/2477854)](https://stackoverflow.com/users/2477854/jv-conseil "Follow JV conseil on StackOverflow")
@@ -64,7 +63,9 @@ Install with [npm](https://www.npmjs.com/):~~
 
 -->
 
-`yarn add -D mdline@https://github.com/JV-conseil/mdline.git`
+```bash
+yarn add -D mdline@https://github.com/JV-conseil/mdline.git
+```
 
 Convert mdline format text to html.
 
