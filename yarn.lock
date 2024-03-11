@@ -245,23 +245,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html":
-  version: 1.0.3
-  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-formatter-html&commit=149398d37cc7d59702185ec97e422bec913ce37b"
-  dependencies:
-    "@mdline/types": "npm:^1.0.2"
-    svelte: "npm:^4.2.12"
-  checksum: 10c0/75b03f09b78c07dabe227dadcb6dac96f8f710ecd7a609d6c695a5fe53a215099521517b1c4fc35fa5db6173df3416d4dbc6401cbd21f75276291eb22e7d2050
-  languageName: node
-  linkType: hard
-
-"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
-    "@mdline/types": "JV-conseil/mdline#workspace=@mdline/types"
+    "@mdline/types": "npm:^1.0.2"
     "@types/mocha": "npm:^10.0.6"
-    "@types/node": "npm:^20.11.25"
+    "@types/node": "npm:^20.11.26"
     cross-env: "npm:^7.0.3"
     mocha: "npm:^10.3.0"
     prettier: "npm:^3.2.5"
@@ -273,29 +263,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mdline/mdline-parser@JV-conseil/mdline#workspace=@mdline/mdline-parser":
-  version: 1.0.3
-  resolution: "@mdline/mdline-parser@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-parser&commit=149398d37cc7d59702185ec97e422bec913ce37b"
-  dependencies:
-    "@mdline/types": "npm:^1.0.2"
-    mdast-util-to-string: "npm:^4.0.0"
-    remark-html: "npm:^16.0.1"
-    remark-parse: "npm:^11.0.0"
-    remark-stringify: "npm:^11.0.0"
-    select-section: "npm:^0.4.6"
-    unified: "npm:^11.0.4"
-    unist-util-select: "npm:^5.1.0"
-  checksum: 10c0/067c6b9679fcf087a7bb474974ee677e4d00ac940fd3ff3f2da86f246792905473b140d0e5b85a96b99b272397e75074d6e7a9fd08c47c4e9564b46d62e49dd8
-  languageName: node
-  linkType: hard
-
-"@mdline/mdline-parser@workspace:packages/mdline-parser":
+"@mdline/mdline-parser@npm:^1.0.2, @mdline/mdline-parser@workspace:packages/mdline-parser":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-parser@workspace:packages/mdline-parser"
   dependencies:
-    "@mdline/types": "JV-conseil/mdline#workspace=@mdline/types"
+    "@mdline/types": "npm:^1.0.2"
     "@types/mocha": "npm:^10.0.6"
-    "@types/node": "npm:^20.11.25"
+    "@types/node": "npm:^20.11.26"
     cross-env: "npm:^7.0.3"
     mdast-util-to-string: "npm:^4.0.0"
     mocha: "npm:^10.3.0"
@@ -312,20 +286,13 @@ __metadata:
     unist-util-select: "npm:^5.1.0"
   languageName: unknown
   linkType: soft
-
-"@mdline/types@JV-conseil/mdline#workspace=@mdline/types":
-  version: 1.0.3
-  resolution: "@mdline/types@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Ftypes&commit=149398d37cc7d59702185ec97e422bec913ce37b"
-  checksum: 10c0/5b91a65cc7947212c563ec2b8220d72ac38f12ccb6bd19d3962f6149f85971524062ba3061dd60851d172087b7e56d9f5ccea5e7e07d72ff1904f7dae9d9258d
-  languageName: node
-  linkType: hard
 
 "@mdline/types@npm:^1.0.2, @mdline/types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@mdline/types@workspace:packages/types"
   dependencies:
     "@types/mocha": "npm:^10.0.6"
-    "@types/node": "npm:^20.11.25"
+    "@types/node": "npm:^20.11.26"
     cross-env: "npm:^7.0.3"
     mocha: "npm:^10.3.0"
     prettier: "npm:^3.2.5"
@@ -978,12 +945,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.25":
-  version: 20.11.25
-  resolution: "@types/node@npm:20.11.25"
+"@types/node@npm:^20.11.26":
+  version: 20.11.26
+  resolution: "@types/node@npm:20.11.26"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/3a65a0469309d503e572a3198d81c9248876236b1bcc0c9943e995cfa536df7ce9a9302638258984877420d1613167a8a82dbfb3a92197319fb79ebebf9abc83
+  checksum: 10c0/2df81e4f109588c4c490f2c7d616a06d2b3b9298f217468134b80711af810c9a6017a59beb3e6b1c596eb9b6c5a39d33403b99179acb89006badfbc55f2468bb
   languageName: node
   linkType: hard
 
@@ -4157,11 +4124,11 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html"
-    "@mdline/mdline-parser": "JV-conseil/mdline#workspace=@mdline/mdline-parser"
+    "@mdline/mdline-formatter-html": "npm:^1.0.2"
+    "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/mocha": "npm:^10.0.6"
-    "@types/node": "npm:^20.11.25"
+    "@types/node": "npm:^20.11.26"
     cross-env: "npm:^7.0.3"
     meow: "npm:^13.2.0"
     mocha: "npm:^10.3.0"

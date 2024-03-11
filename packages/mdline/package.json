@@ -7,15 +7,15 @@
   "dependencies": {
     "@babel/generator": "^7.23.6",
     "@babel/parser": "^7.24.0",
-    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html",
-    "@mdline/mdline-parser": "JV-conseil/mdline#workspace=@mdline/mdline-parser",
+    "@mdline/mdline-formatter-html": "^1.0.2",
+    "@mdline/mdline-parser": "^1.0.2",
     "meow": "^13.2.0"
   },
   "description": "markdown to timeline tool.",
   "devDependencies": {
     "@types/babel__generator": "^7.6.8",
     "@types/mocha": "^10.0.6",
-    "@types/node": "^20.11.25",
+    "@types/node": "^20.11.26",
     "cross-env": "^7.0.3",
     "mocha": "^10.3.0",
     "prettier": "^3.2.5",
