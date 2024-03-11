@@ -64,7 +64,8 @@ Install with [npm](https://www.npmjs.com/):~~
 -->
 
 ```bash
-yarn add -D mdline@https://github.com/JV-conseil/mdline.git
+yarn add -D mdline@https://github.com/JV-conseil/mdline/tree/main/packages/mdline
+yarn add -D mdline@JV-conseil/mdline#workspace=mdline
 ```
 
 Convert mdline format text to html.

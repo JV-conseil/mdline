@@ -19,6 +19,11 @@
       },
     },
     {
+      "label": "test",
+      "command": "yarn run test",
+      "detail": "test"
+    },
+    {
       "label": "yarn",
       "command": "npm run yarn-update",
       "detail": "Upgrade dependencies"

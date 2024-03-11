@@ -32,7 +32,7 @@
     "build": "cross-env NODE_ENV=production tsc -p .",
     "clean": "rimraf lib/",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "prepublish": "npm run --if-present build",
+    "prepublish": "yarn run --if-present build",
     "watch": "tsc -p . --watch"
   },
   "prettier": {

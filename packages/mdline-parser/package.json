@@ -59,7 +59,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production tsc -p .",
     "clean": "rimraf lib/",
-    "prepublish": "npm run --if-present build",
+    "prepublish": "yarn run --if-present build",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "test": "mocha \"test/*.ts\"",
     "updateSnapshot": "cross-env UPDATE_SNAPSHOT=1 npm test",
