@@ -4,14 +4,14 @@ export type MdlineItem = {
     title: string;
     bodyMarkdown: string; // markdown
     bodyHTML: string; // HTML
-}
+};
 export type MdlineList = MdlineItem[];
 /**
  * Mdline format type
  * Parser should output this format
  */
 export type MdlineFormat = {
-    items: MdlineList
+    items: MdlineList;
 };
 
 /**
@@ -26,7 +26,6 @@ export type MdlineParser = {
     parse: MdlineParserParse;
 };
 
-
 /**
  * format function for formatter
  */
@@ -38,4 +37,3 @@ export type MdlineFormatterFormat = (mdlineData: MdlineFormat) => Promise<string
 export type MdlineFormatter = {
     format: MdlineFormatterFormat;
 };
-
