@@ -11,9 +11,17 @@
   "problemMatcher": [],
   "tasks": [
     {
+      "label": "build",
+      "command": "yarn run build",
+      "detail": "build",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+    },
+    {
       "label": "yarn",
       "command": "npm run yarn-update",
-      "detail": "Upgrade package.json."
+      "detail": "Upgrade dependencies"
     }
   ]
 }

@@ -7,16 +7,16 @@
     "types",
     "typescript"
   ],
-  "homepage": "https://github.com/azu/mdline/tree/master/packages/types/",
+  "homepage": "https://github.com/JV-conseil/mdline/tree/main/packages/types/",
   "bugs": {
-    "url": "https://github.com/azu/mdline/issues"
+    "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/mdline.git"
+    "url": "https://github.com/JV-conseil/mdline.git"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "JV-conseil",
   "files": [
     "bin/",
     "lib/",
@@ -42,14 +42,14 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.6",
-    "@types/node": "^20.11.20",
+    "@types/node": "^20.11.25",
     "cross-env": "^7.0.3",
     "mocha": "^10.3.0",
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
     "ts-node-test-register": "^10.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "publishConfig": {
     "access": "public"

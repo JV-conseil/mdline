@@ -1,13 +1,13 @@
 import { MdlineFormat } from "@mdline/types";
 
 require("svelte/ssr/register")({
-    extensions: [".svelte"]
+    extensions: [".svelte"],
 });
 
 export const format = async (mdlineData: MdlineFormat): Promise<string> => {
     const App = require("../component/App.svelte");
     const { html, css, head } = App.render({
-        items: mdlineData.items
+        items: mdlineData.items,
     });
     return `<!doctype html>
 <html lang="en">

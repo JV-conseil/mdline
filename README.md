@@ -1,4 +1,12 @@
-# mdline [![Build Status](https://travis-ci.org/azu/mdline.svg?branch=master)](https://travis-ci.org/azu/mdline)
+# mdline
+
+[![Build Status](https://travis-ci.org/JV-conseil/mdline.svg?branch=master)](https://travis-ci.org/JV-conseil/mdline)
+[![License EUPL 1.2](https://img.shields.io/badge/License-EUPL--1.2-blue.svg)](LICENSE)
+[![Become a sponsor to JV-conseil](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/JV-conseil "Become a sponsor to JV-conseil")
+[![Follow JV conseil on StackOverflow](https://img.shields.io/stackexchange/stackoverflow/r/2477854)](https://stackoverflow.com/users/2477854/jv-conseil "Follow JV conseil on StackOverflow")
+[![Follow JVconseil on Twitter](https://img.shields.io/twitter/follow/JVconseil.svg?style=social&logo=twitter)](https://twitter.com/JVconseil "Follow JVconseil on Twitter")
+[![Follow JVconseil on Mastodon](https://img.shields.io/mastodon/follow/110950122046692405)](https://mastodon.social/@JVconseil "Follow JVconseil on Mastodon")
+[![Follow JV conseil on GitHub](https://img.shields.io/github/followers/JV-conseil?label=JV-conseil&style=social)](https://github.com/JV-conseil "Follow JV conseil on GitHub")
 
 Markdown timeline format and toolkit.
 
@@ -72,7 +80,7 @@ This repository is a monorepo includes following packages.
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/mdline/releases).
+See [Releases page](https://github.com/JV-conseil/mdline/releases).
 
 ## Running tests
 
@@ -103,7 +111,7 @@ You have a basic Docker integration in the `docker` directory with an example fi
 
 Pull requests and stars are always welcome.
 
-For bugs and feature requests, [please create an issue](https://github.com/azu/mdline/issues).
+For bugs and feature requests, [please create an issue](https://github.com/JV-conseil/mdline/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -113,9 +121,9 @@ For bugs and feature requests, [please create an issue](https://github.com/azu/m
 
 ## Author
 
-- [github/azu](https://github.com/azu)
-- [twitter/azu_re](https://twitter.com/azu_re)
+- [github/JV-conseil](https://github.com/JV-conseil)
+- [twitter/JVconseil](https://twitter.com/JVconseil)
 
 ## License
 
-MIT © azu
+License EUPL 1.2 @ JV-conseil
