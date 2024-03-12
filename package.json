@@ -1,7 +1,7 @@
 {
-  "author": "azu",
+  "author": "JV-conseil",
   "bugs": {
-    "url": "https://github.com/azu/mdline/issues"
+    "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "description": "Markdown timeline format and toolkit.",
   "devDependencies": {
@@ -19,7 +19,7 @@
     "lib/",
     "src/"
   ],
-  "homepage": "https://github.com/azu/mdline",
+  "homepage": "https://github.com/JV-conseil/mdline",
   "husky": {
     "hooks": {
       "precommit": "lint-staged"
@@ -49,7 +49,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/mdline.git"
+    "url": "https://github.com/JV-conseil/mdline.git"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
@@ -65,7 +65,7 @@
     "versionup:patch": "lerna version patch --conventional-commits",
     "yarn-update": "yarn set version stable && yarn install && yarn up && yarn npm audit && ( npx depcheck --detailed ) || : && yarn upgrade-interactive"
   },
-  "version": "1.0.0",
+  "version": "1.0.3",
   "workspaces": [
     "packages/*"
   ]

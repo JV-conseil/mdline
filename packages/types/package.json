@@ -7,16 +7,16 @@
     "types",
     "typescript"
   ],
-  "homepage": "https://github.com/azu/mdline/tree/master/packages/types/",
+  "homepage": "https://github.com/JV-conseil/mdline/tree/main/packages/types/",
   "bugs": {
-    "url": "https://github.com/azu/mdline/issues"
+    "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/mdline.git"
+    "url": "https://github.com/JV-conseil/mdline.git"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "JV-conseil",
   "files": [
     "bin/",
     "lib/",

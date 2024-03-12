@@ -1,10 +1,10 @@
 {
-  "author": "azu",
+  "author": "JV-conseil",
   "bugs": {
-    "url": "https://github.com/azu/mdline/issues"
+    "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "dependencies": {
-    "@mdline/types": "^1.0.2",
+    "@mdline/types": "JV-conseil/mdline#workspace=@mdline/types",
     "svelte": "^4.2.12"
   },
   "description": "HTML formatter for mdline",
@@ -30,7 +30,7 @@
     "component/"
   ],
   "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36",
-  "homepage": "https://github.com/azu/mdline/tree/master/packages/mdline-formatter-html/",
+  "homepage": "https://github.com/JV-conseil/mdline/tree/main/packages/mdline-formatter-html/",
   "keywords": [
     "mdline"
   ],
@@ -47,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/mdline.git"
+    "url": "https://github.com/JV-conseil/mdline.git"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production tsc -p .",

@@ -1,14 +1,14 @@
 {
-  "author": "azu",
+  "author": "JV-conseil",
   "bin": "bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/azu/mdline/issues"
+    "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "dependencies": {
     "@babel/generator": "^7.23.6",
     "@babel/parser": "^7.24.0",
-    "@mdline/mdline-formatter-html": "^1.0.2",
-    "@mdline/mdline-parser": "^1.0.2",
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#wokspace=@mdline/mdline-formatter-html",
+    "@mdline/mdline-parser": "JV-conseil/mdline#wokspace=@mdline/mdline-parser",
     "meow": "^13.2.0"
   },
   "description": "markdown to timeline tool.",
@@ -35,7 +35,7 @@
     "src/"
   ],
   "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36",
-  "homepage": "https://github.com/azu/mdline/tree/master/packages/mdline/",
+  "homepage": "https://github.com/JV-conseil/mdline/tree/main/packages/mdline/",
   "keywords": [
     "cli",
     "mdline"
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/mdline.git"
+    "url": "https://github.com/JV-conseil/mdline.git"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production tsc -p .",

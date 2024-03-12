@@ -245,11 +245,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@JV-conseil/mdline#wokspace=@mdline/mdline-formatter-html":
+  version: 1.0.0
+  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#wokspace=%40mdline%2Fmdline-formatter-html&commit=2b1893d8f3c6d35939ab0e8b7399e4594d976bda"
+  checksum: 10c0/02f2bbd398f9eaadbbce7bb92afb4755d49edd32f082947028c6c07e1ad83b563cb8a38a27d72f0bae530e3011c68a94f2b4c1c09a3714b62b32cdf09ca851da
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
-    "@mdline/types": "npm:^1.0.2"
+    "@mdline/types": "JV-conseil/mdline#workspace=@mdline/types"
     "@types/mocha": "npm:^10.0.6"
     "@types/node": "npm:^20.11.26"
     cross-env: "npm:^7.0.3"
@@ -263,7 +270,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mdline/mdline-parser@npm:^1.0.2, @mdline/mdline-parser@workspace:packages/mdline-parser":
+"@mdline/mdline-parser@JV-conseil/mdline#wokspace=@mdline/mdline-parser":
+  version: 1.0.0
+  resolution: "@mdline/mdline-parser@https://github.com/JV-conseil/mdline.git#wokspace=%40mdline%2Fmdline-parser&commit=2b1893d8f3c6d35939ab0e8b7399e4594d976bda"
+  checksum: 10c0/3089807a7846003cb0301cfc6b3709e7d3e07c2329ef1a5ea88f5ab4a9b90784782e49b3ba057c3b3a6baf842b05af354d1c6143c2a37ec379e1af1abb12e2e1
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-parser@workspace:packages/mdline-parser":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-parser@workspace:packages/mdline-parser"
   dependencies:
@@ -286,6 +300,13 @@ __metadata:
     unist-util-select: "npm:^5.1.0"
   languageName: unknown
   linkType: soft
+
+"@mdline/types@JV-conseil/mdline#workspace=@mdline/types":
+  version: 1.0.3
+  resolution: "@mdline/types@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Ftypes&commit=2b1893d8f3c6d35939ab0e8b7399e4594d976bda"
+  checksum: 10c0/c8dcd43e12480522faf368bf632f72e78e81e4f60ed2c5458f242ee1b4a0840231a1027158271ea7f5892a087cdc43f0f5daa2d8c499b9b1dac0d9935c6509be
+  languageName: node
+  linkType: hard
 
 "@mdline/types@npm:^1.0.2, @mdline/types@workspace:packages/types":
   version: 0.0.0-use.local
@@ -4133,8 +4154,8 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "npm:^1.0.2"
-    "@mdline/mdline-parser": "npm:^1.0.2"
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#wokspace=@mdline/mdline-formatter-html"
+    "@mdline/mdline-parser": "JV-conseil/mdline#wokspace=@mdline/mdline-parser"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/meow": "npm:^6.0.0"
     "@types/mocha": "npm:^10.0.6"
