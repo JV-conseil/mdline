@@ -245,7 +245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html":
+  version: 1.0.3
+  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-formatter-html&commit=306196b80a8a9cf239a240d09cde9b42259e9db4"
+  dependencies:
+    "@mdline/types": "npm:^1.0.2"
+    svelte: "npm:^4.2.12"
+  checksum: 10c0/358996c81460241933f52634c2ad3b902a7d03bfe2c514063a66bf3eaeb0d05859771f780f1f5396248eba7c3124de2e644789e1c7f7fd7356e02807351c112e
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
@@ -4133,7 +4143,7 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "npm:^1.0.2"
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/meow": "npm:^6.0.0"
