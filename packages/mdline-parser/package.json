@@ -4,7 +4,7 @@
     "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "dependencies": {
-    "@mdline/types": "JV-conseil/mdline#workspace=@mdline/types",
+    "@mdline/types": "^1.0.2",
     "mdast-util-to-string": "^4.0.0",
     "remark-html": "^16.0.1",
     "remark-parse": "^11.0.0",

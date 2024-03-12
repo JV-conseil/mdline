@@ -1,45 +1,9 @@
 {
-  "name": "@mdline/types",
-  "version": "1.0.3",
-  "description": "Types definitions for mdline.",
-  "keywords": [
-    "mdline",
-    "types",
-    "typescript"
-  ],
-  "homepage": "https://github.com/JV-conseil/mdline/tree/main/packages/types/",
+  "author": "JV-conseil",
   "bugs": {
     "url": "https://github.com/JV-conseil/mdline/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JV-conseil/mdline.git"
-  },
-  "license": "MIT",
-  "author": "JV-conseil",
-  "files": [
-    "bin/",
-    "lib/",
-    "src/"
-  ],
-  "main": "lib/types.js",
-  "types": "lib/types.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "build": "cross-env NODE_ENV=production tsc -p .",
-    "clean": "rimraf lib/",
-    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
-    "prepublish": "yarn run --if-present build",
-    "watch": "tsc -p . --watch"
-  },
-  "prettier": {
-    "printWidth": 120,
-    "singleQuote": false,
-    "tabWidth": 4
-  },
+  "description": "Types definitions for mdline.",
   "devDependencies": {
     "@types/mocha": "^10.0.6",
     "@types/node": "^20.11.26",
@@ -51,8 +15,44 @@
     "ts-node-test-register": "^10.0.0",
     "typescript": "^5.4.2"
   },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36",
+  "homepage": "https://github.com/JV-conseil/mdline/tree/main/packages/types/",
+  "keywords": [
+    "mdline",
+    "types",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "lib/types.js",
+  "name": "@mdline/types",
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4
+  },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "a2524a6ac6b42f6fcd7ef5a91ef6d2c31a369f36"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JV-conseil/mdline.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "clean": "rimraf lib/",
+    "prepublish": "yarn run --if-present build",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "watch": "tsc -p . --watch"
+  },
+  "types": "lib/types.d.ts",
+  "version": "1.0.3"
 }

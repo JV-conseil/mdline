@@ -4,7 +4,7 @@
     "url": "https://github.com/JV-conseil/mdline/issues"
   },
   "dependencies": {
-    "@mdline/types": "JV-conseil/mdline#workspace=@mdline/types",
+    "@mdline/types": "^1.0.2",
     "svelte": "^4.2.12"
   },
   "description": "HTML formatter for mdline",
