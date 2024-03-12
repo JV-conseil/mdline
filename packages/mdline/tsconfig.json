@@ -8,8 +8,8 @@
       "dom"
     ],
     /* Basic Options */
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "newLine": "LF",
     /* Report errors for fallthrough cases in switch statement. */
     "noFallthroughCasesInSwitch": true,

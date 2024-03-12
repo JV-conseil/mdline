@@ -1,8 +1,7 @@
-// @ts-ignore
 import meow from "meow";
 import * as fs from "fs";
 import * as path from "path";
-import { processText } from "./mdline";
+import { processText } from "./mdline.js";
 import * as parser from "@mdline/mdline-parser";
 import * as formatter from "@mdline/mdline-formatter-html";
 
@@ -19,6 +18,7 @@ export async function run(argv: string[]) {
       $ mdline ./timeline.md -o timeline.html
 `,
         {
+            importMeta: import.meta,
             flags: {
                 output: {
                     type: "string",
