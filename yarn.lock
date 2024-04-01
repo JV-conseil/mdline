@@ -245,7 +245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html":
+  version: 1.0.3
+  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-formatter-html&commit=9ebb81a32fac61d7363f1b3a6a85321c60d2e771"
+  dependencies:
+    "@mdline/types": "npm:^1.0.2"
+    svelte: "npm:^4.2.12"
+  checksum: 10c0/358996c81460241933f52634c2ad3b902a7d03bfe2c514063a66bf3eaeb0d05859771f780f1f5396248eba7c3124de2e644789e1c7f7fd7356e02807351c112e
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
@@ -4124,7 +4134,7 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "npm:^1.0.2"
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/mocha": "npm:^10.0.6"
@@ -4664,8 +4674,8 @@ __metadata:
   linkType: hard
 
 "mocha@npm:^10.3.0":
-  version: 10.3.0
-  resolution: "mocha@npm:10.3.0"
+  version: 10.4.0
+  resolution: "mocha@npm:10.4.0"
   dependencies:
     ansi-colors: "npm:4.1.1"
     browser-stdout: "npm:1.3.1"
@@ -4690,7 +4700,7 @@ __metadata:
   bin:
     _mocha: bin/_mocha
     mocha: bin/mocha.js
-  checksum: 10c0/8dc93842468b2be5f820e5eb64208fb68ba3e5ee90cfe21a9f1d439f9ec031e8a8dc97f4d3206a376c9e05141cf689a812aedcf4545f71f69b3e9a51f312ec4a
+  checksum: 10c0/e572e9d8c164e98f64de7e9498608de042fd841c6a7441f456a5e216e9aed2299e2c568d9dc27f2be2de06521e6b2d1dd774ab58a243b1c7697d14aec2f0f7f7
   languageName: node
   linkType: hard
 
