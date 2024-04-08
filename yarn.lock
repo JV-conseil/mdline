@@ -26,14 +26,14 @@ __metadata:
   linkType: hard
 
 "@babel/generator@npm:^7.23.6":
-  version: 7.23.6
-  resolution: "@babel/generator@npm:7.23.6"
+  version: 7.24.4
+  resolution: "@babel/generator@npm:7.24.4"
   dependencies:
-    "@babel/types": "npm:^7.23.6"
-    "@jridgewell/gen-mapping": "npm:^0.3.2"
-    "@jridgewell/trace-mapping": "npm:^0.3.17"
+    "@babel/types": "npm:^7.24.0"
+    "@jridgewell/gen-mapping": "npm:^0.3.5"
+    "@jridgewell/trace-mapping": "npm:^0.3.25"
     jsesc: "npm:^2.5.1"
-  checksum: 10c0/53540e905cd10db05d9aee0a5304e36927f455ce66f95d1253bb8a179f286b88fa7062ea0db354c566fe27f8bb96567566084ffd259f8feaae1de5eccc8afbda
+  checksum: 10c0/67a1b2f7cc985aaaa11b01e8ddd4fffa4f285837bc7a209738eb8203aa34bdafeb8507ed75fd883ddbabd641a036ca0a8d984e760f28ad4a9d60bff29d0a60bb
   languageName: node
   linkType: hard
 
@@ -71,7 +71,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.0.0, @babel/types@npm:^7.23.6, @babel/types@npm:^7.8.3":
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.24.0, @babel/types@npm:^7.8.3":
   version: 7.24.0
   resolution: "@babel/types@npm:7.24.0"
   dependencies:
@@ -121,7 +121,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/gen-mapping@npm:^0.3.2, @jridgewell/gen-mapping@npm:^0.3.5":
+"@jridgewell/gen-mapping@npm:^0.3.5":
   version: 0.3.5
   resolution: "@jridgewell/gen-mapping@npm:0.3.5"
   dependencies:
@@ -163,7 +163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.17, @jridgewell/trace-mapping@npm:^0.3.18, @jridgewell/trace-mapping@npm:^0.3.24":
+"@jridgewell/trace-mapping@npm:^0.3.18, @jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25":
   version: 0.3.25
   resolution: "@jridgewell/trace-mapping@npm:0.3.25"
   dependencies:
@@ -245,7 +245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html":
+  version: 1.0.3
+  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-formatter-html&commit=9ebb81a32fac61d7363f1b3a6a85321c60d2e771"
+  dependencies:
+    "@mdline/types": "npm:^1.0.2"
+    svelte: "npm:^4.2.12"
+  checksum: 10c0/358996c81460241933f52634c2ad3b902a7d03bfe2c514063a66bf3eaeb0d05859771f780f1f5396248eba7c3124de2e644789e1c7f7fd7356e02807351c112e
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
@@ -4124,7 +4134,7 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "npm:^1.0.2"
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/mocha": "npm:^10.0.6"
