@@ -63,11 +63,11 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.24.0":
-  version: 7.24.0
-  resolution: "@babel/parser@npm:7.24.0"
+  version: 7.24.5
+  resolution: "@babel/parser@npm:7.24.5"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 10c0/77593d0b9de9906823c4d653bb6cda1c7593837598516330f655f70cba6224a37def7dbe5b4dad0038482d407d8d209eb8be5f48ca9a13357d769f829c5adb8e
+  checksum: 10c0/8333a6ad5328bad34fa0e12bcee147c3345ea9a438c0909e7c68c6cfbea43c464834ffd7eabd1cbc1c62df0a558e22ffade9f5b29440833ba7b33d96a71f88c0
   languageName: node
   linkType: hard
 
@@ -245,7 +245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html":
+  version: 1.0.3
+  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-formatter-html&commit=9ebb81a32fac61d7363f1b3a6a85321c60d2e771"
+  dependencies:
+    "@mdline/types": "npm:^1.0.2"
+    svelte: "npm:^4.2.12"
+  checksum: 10c0/358996c81460241933f52634c2ad3b902a7d03bfe2c514063a66bf3eaeb0d05859771f780f1f5396248eba7c3124de2e644789e1c7f7fd7356e02807351c112e
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
@@ -4124,7 +4134,7 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "npm:^1.0.2"
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/mocha": "npm:^10.0.6"
