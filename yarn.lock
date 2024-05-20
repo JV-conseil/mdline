@@ -245,7 +245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdline/mdline-formatter-html@npm:^1.0.2, @mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
+"@mdline/mdline-formatter-html@JV-conseil/mdline#workspace=@mdline/mdline-formatter-html":
+  version: 1.0.3
+  resolution: "@mdline/mdline-formatter-html@https://github.com/JV-conseil/mdline.git#workspace=%40mdline%2Fmdline-formatter-html&commit=9ebb81a32fac61d7363f1b3a6a85321c60d2e771"
+  dependencies:
+    "@mdline/types": "npm:^1.0.2"
+    svelte: "npm:^4.2.12"
+  checksum: 10c0/358996c81460241933f52634c2ad3b902a7d03bfe2c514063a66bf3eaeb0d05859771f780f1f5396248eba7c3124de2e644789e1c7f7fd7356e02807351c112e
+  languageName: node
+  linkType: hard
+
+"@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html":
   version: 0.0.0-use.local
   resolution: "@mdline/mdline-formatter-html@workspace:packages/mdline-formatter-html"
   dependencies:
@@ -946,11 +956,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^20.11.26":
-  version: 20.11.26
-  resolution: "@types/node@npm:20.11.26"
+  version: 20.12.12
+  resolution: "@types/node@npm:20.12.12"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/2df81e4f109588c4c490f2c7d616a06d2b3b9298f217468134b80711af810c9a6017a59beb3e6b1c596eb9b6c5a39d33403b99179acb89006badfbc55f2468bb
+  checksum: 10c0/f374b763c744e8f16e4f38cf6e2c0eef31781ec9228c9e43a6f267880fea420fab0a238b59f10a7cb3444e49547c5e3785787e371fc242307310995b21988812
   languageName: node
   linkType: hard
 
@@ -4124,7 +4134,7 @@ __metadata:
   dependencies:
     "@babel/generator": "npm:^7.23.6"
     "@babel/parser": "npm:^7.24.0"
-    "@mdline/mdline-formatter-html": "npm:^1.0.2"
+    "@mdline/mdline-formatter-html": "JV-conseil/mdline#workspace=@mdline/mdline-formatter-html"
     "@mdline/mdline-parser": "npm:^1.0.2"
     "@types/babel__generator": "npm:^7.6.8"
     "@types/mocha": "npm:^10.0.6"
